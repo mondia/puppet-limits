@@ -1,5 +1,5 @@
 class limits (
-  $config    = undef,
+  $config    = {},
   $use_hiera = true
 ) {
   if $use_hiera {
